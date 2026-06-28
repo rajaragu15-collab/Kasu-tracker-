@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.FinanceTracker" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.FinanceTracker.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#1B5E20</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.FinanceTracker</item>
+    </style>
+</resources>
